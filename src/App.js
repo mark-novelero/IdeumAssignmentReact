@@ -8,27 +8,29 @@ class App extends Component {
  
   goToCaliforniaScienceCenter = () => {
 
-    window.open("https://californiasciencecenter.org/");
+    window.open("https://ideum.com/portfolio/life-beginnings-exhibit-california-science");
   }
 
 
   goToPalmSpringsTramway = () => {
 
-    window.open("https://pstramway.com/")
+    window.open("https://ideum.com/portfolio/palm-springs-touch-wall")
   }
 
 
   goToSmithsonian = () => {
 
-    window.open("https://africa.si.edu/")
+    window.open("https://ideum.com/portfolio/smithsonian-african-art")
   }
 
  
  render() {
+
   return(
+
     <div>
       <header>
-        <h1>Mark Novelero: Ideum Coding Assignment</h1>
+        <h1>Ideum</h1>
       </header>  
       <main className="main-container" >
         <div className="column-1" >
